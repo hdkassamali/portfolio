@@ -123,7 +123,7 @@ export function ProjectsSection() {
                         <Button size="sm" variant="secondary" asChild>
                           <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
                             <ExternalLink className="h-4 w-4 mr-1" />
-                            Demo
+                            Website
                           </a>
                         </Button>
                       )}
