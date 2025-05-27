@@ -11,7 +11,7 @@ import { Icons } from "@/components/icons"
 
 export function ContactSection() {
   return (
-    <section id="contact" className="py-20 section-padding">
+    <section id="contact" className="py-20 section-padding scroll-mt-16">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,15 @@ export function ContactSection() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Let's work together</h3>
               <p className="text-muted-foreground mb-6">
-               Looking to build a website or have a quick coffee chat? You can <a href="https://cal.com/hadi-kassamali/30min" className="text-blue-400 hover:underline">schedule a meeting</a>, reach out on <a href="https://www.linkedin.com/in/hadi-kassamali/" className="text-blue-400 hover:underline">LinkedIn</a>,  email, phone, or simply send me a message using the form.
+                Looking to build a website or have a quick coffee chat? You can{" "}
+                <a href="https://cal.com/hadi-kassamali/30min" className="text-blue-400 hover:underline">
+                  schedule a meeting
+                </a>
+                , reach out on{" "}
+                <a href="https://www.linkedin.com/in/hadi-kassamali/" className="text-blue-400 hover:underline">
+                  LinkedIn
+                </a>
+                , email, phone, or simply send me a message using the form.
               </p>
             </div>
 

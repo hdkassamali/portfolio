@@ -8,7 +8,7 @@ import { Icons } from "@/components/icons"
 
 export function HeroSection() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center section-padding">
+    <section id="home" className="min-h-screen flex items-center justify-center section-padding pt-16 md:pt-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div

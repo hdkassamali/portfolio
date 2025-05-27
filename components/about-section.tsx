@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 section-padding">
+    <section id="about" className="py-20 section-padding scroll-mt-16">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,16 +50,26 @@ export function AboutSection() {
           >
             <h3 className="text-2xl font-semibold">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              I spent over three years in tech sales, pitching NoSQL databases to senior software engineers, CTOs, and enterprise architects. After a while, chasing quota each quarter and recycling the same playbook felt…hollow. I craved work that flipped the switch in my brain, not just another quarterly report to hit.
+              I spent over three years in tech sales, pitching NoSQL databases to senior software engineers, CTOs, and
+              enterprise architects. After a while, chasing quota each quarter and recycling the same playbook
+              felt…hollow. I craved work that flipped the switch in my brain, not just another quarterly report to hit.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In those sales meetings I noticed the level of real domain expertise at work that those technical leaders had and thought, “I want that.” So I dove into software development and fell in love instantly. Solving tricky UX challenges, adapting on the fly, and tapping into a never-ending well of new knowledge is exactly what gets me out of bed. For someone with an extreme thirst for learning, every sprint and bug fix still feels fresh, and this is  exactly the space where I belong.
+              In those sales meetings I noticed the level of real domain expertise at work that those technical leaders
+              had and thought, "I want that." So I dove into software development and fell in love instantly. Solving
+              tricky UX challenges, adapting on the fly, and tapping into a never-ending well of new knowledge is
+              exactly what gets me out of bed. For someone with an extreme thirst for learning, every sprint and bug fix
+              still feels fresh, and this is exactly the space where I belong.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I specialize in building scalable web applications using React, Next.js, and TypeScript on the frontend, with Node.js and various databases on the backend. I'm always eager to learn new technologies and tackle challenging problems. I believe in writing clean, maintainable code and creating user experiences that make a difference.
+              I specialize in building scalable web applications using React, Next.js, and TypeScript on the frontend,
+              with Node.js and various databases on the backend. I'm always eager to learn new technologies and tackle
+              challenging problems. I believe in writing clean, maintainable code and creating user experiences that
+              make a difference.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I’m not coding, you’ll find me shooting hoops, hanging out with family, watching movies (or the Chargers, though that’s not always fun 😂😭), and hunting down the next great burger spot.
+              When I'm not coding, you'll find me shooting hoops, hanging out with family, watching movies (or the
+              Chargers, though that's not always fun 😂😭), and hunting down the next great burger spot.
             </p>
 
             <div className="grid grid-cols-3 gap-4 pt-4">
