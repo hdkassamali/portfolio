@@ -113,8 +113,9 @@ export function ProjectsSection() {
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
-                    width={300}
-                    height={200}
+                    width={800}
+                    height={600}
+                    quality={95}
                     className="object-cover w-full h-48 group-hover:scale-105 transition-transform duration-300"
                   />
                   {(project.demoUrl || project.githubUrl) && (
