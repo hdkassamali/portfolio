@@ -33,8 +33,9 @@ export function AboutSection() {
                 <Image
                   src="/images/basketball-rome.jpeg"
                   alt="Hadi playing basketball in Rome"
-                  width={500}
-                  height={400}
+                  width={800}
+                  height={600}
+                  quality={90}
                   className="object-cover w-full h-full"
                 />
               </CardContent>
@@ -78,8 +79,9 @@ export function AboutSection() {
                   <Image
                     src="/images/hadi-cody-meetup.jpeg"
                     alt="Hadi at a tech meetup"
-                    width={400}
-                    height={300}
+                    width={800}
+                    height={600}
+                    quality={90}
                     className="object-cover w-full h-48"
                   />
                 </CardContent>
@@ -89,8 +91,9 @@ export function AboutSection() {
                   <Image
                     src="/images/meetup-ai.jpeg"
                     alt="Hadi at an AI meetup"
-                    width={400}
-                    height={300}
+                    width={800}
+                    height={600}
+                    quality={90}
                     className="object-cover w-full h-48"
                   />
                 </CardContent>
@@ -100,8 +103,9 @@ export function AboutSection() {
                   <Image
                     src="/images/hadi-software-desk.jpeg"
                     alt="Hadi working at his desk"
-                    width={400}
-                    height={300}
+                    width={800}
+                    height={600}
+                    quality={90}
                     className="object-cover w-full h-48"
                   />
                 </CardContent>
