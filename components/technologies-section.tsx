@@ -31,7 +31,7 @@ const technologies = [
 
 export function TechnologiesSection() {
   return (
-    <section id="technologies" className="py-20 section-padding bg-muted/50">
+    <section id="technologies" className="py-20 section-padding bg-muted/50 scroll-mt-16">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
