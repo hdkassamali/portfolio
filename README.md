@@ -19,7 +19,7 @@ Visit my portfolio at: **[hadikassamali.com](https://www.hadikassamali.com/)**
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) with Radix UI
 - **Animations**: [Framer Motion](https://www.framer.com/)
 - **Design System**: Custom theming with CSS variables
-- **Icons**: [Lucide React](https://lucide.dev/)
+- **Icons**: [Lucide](https://lucide.dev/) [SimpleIcons](https://simpleicons.org/)
 - **Deployment**: [Vercel](https://vercel.com/) 
 
 ## 📋 Features
@@ -75,7 +75,7 @@ pnpm run dev
 
 - Initially created with [v0.dev](https://v0.dev) - Vercel's AI-powered website builder
 - Customized and extended with additional features and optimizations
-- Icons provided by [Lucide](https://lucide.dev/)
+- Icons provided by [Lucide](https://lucide.dev/) and [SimpleIcons](https://simpleicons.org/)
 - UI components based on [shadcn/ui](https://ui.shadcn.com/)
 
 ## 📄 License
