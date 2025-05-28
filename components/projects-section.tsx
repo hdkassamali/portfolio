@@ -1,12 +1,18 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { motion } from "framer-motion"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { ExternalLink } from "lucide-react"
-import { Icons } from "@/components/icons"
+import Image from "next/image";
+import { motion } from "framer-motion";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink } from "lucide-react";
+import { Icons } from "@/components/icons";
 
 const projects = [
   {
@@ -77,7 +83,7 @@ const projects = [
       "RTL",
     ],
   },
-]
+];
 
 export function ProjectsSection() {
   return (
@@ -90,10 +96,12 @@ export function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Featured Projects</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            Featured Projects
+          </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A curated selection of web apps I've built, solo and in collaboration, showcasing the tools and techniques
-            behind them
+            A curated selection of web apps I've built, solo and in
+            collaboration, showcasing the tools and techniques behind them
           </p>
         </motion.div>
 
@@ -122,7 +130,11 @@ export function ProjectsSection() {
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
                       {project.demoUrl && (
                         <Button size="sm" variant="secondary" asChild>
-                          <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                          <a
+                            href={project.demoUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <ExternalLink className="h-4 w-4 mr-1" />
                             Website
                           </a>
@@ -130,7 +142,11 @@ export function ProjectsSection() {
                       )}
                       {project.githubUrl && (
                         <Button size="sm" variant="secondary" asChild>
-                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <a
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <Icons.github className="h-4 w-4 mr-1" />
                             Code
                           </a>
@@ -158,5 +174,5 @@ export function ProjectsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
