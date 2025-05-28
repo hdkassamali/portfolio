@@ -3,7 +3,6 @@
 A modern, responsive portfolio showcasing my projects, skills, and professional journey.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/)
 
 ![Portfolio Preview](/public/images/portfolio-preview.png)
 
@@ -73,10 +72,9 @@ pnpm run dev
 
 ## 🙏 Acknowledgements
 
-- Initially created with [v0.dev](https://v0.dev) - Vercel's AI-powered website builder
-- Customized and extended with additional features and optimizations
 - Icons provided by [Lucide](https://lucide.dev/) and [SimpleIcons](https://simpleicons.org/)
 - UI components based on [shadcn/ui](https://ui.shadcn.com/)
+- Customized and extended with additional features and optimizations
 
 ## 📄 License
 
@@ -84,6 +82,3 @@ This project is licensed under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE.md)
 
----
-
-Made with ❤️ using [v0.dev](https://v0.dev) and [Next.js](https://nextjs.org/)
