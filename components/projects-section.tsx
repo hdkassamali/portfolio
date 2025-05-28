@@ -60,7 +60,7 @@ const projects = [
     title: "Not Another  Dashboard",
     description:
       "NotAnotherDashboard empowers restaurants with AI-driven actionable intelligence, transforming raw sales data into clear, intuitive visualizations. It provides a full performance overview from corporate to store level. This empowers managers to spot trends, optimize menus, and boost profitability by revealing what sells, where, and when.",
-    image: "/images/nan-image-portfolio.png",
+    image: "/images/nan-image.png",
     technologies: [
       "Next.js",
       "TypeScript",
